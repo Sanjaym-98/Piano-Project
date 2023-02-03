@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sanjay's Piano</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header>
+            <h2>Sanjay's PIANO</h2>
+            <div class="column volumn-slider">
+                <span>Volume</span> <input type="range" min="0" max="1" value="0.5" step="any"> 
+                <!-- step might be any number by how much value the slider should increase...so if i give any it takes anything  -->
+            </div>
+            <div class="column keys-checkbox">
+                <span>Show Keys</span> <input type="checkbox" checked >
+            </div>
+        </header>
+        <ul class="piano-keys">
+            <li class="key white" data-key="a"><span>a</span></li>
+            <li class="key black" data-key="w"><span>w</span></li>
+            <li class="key white" data-key="s"><span>s</span></li>
+            <li class="key black" data-key="e"><span>e</span></li>
+            <li class="key white" data-key="d"><span>d</span></li>
+            <li class="key white" data-key="f"><span>f</span></li>
+            <li class="key black" data-key="t"><span>t</span></li>
+            <li class="key white" data-key="g"><span>g</span></li>
+            <li class="key black" data-key="y"><span>y</span></li>
+            <li class="key white" data-key="h"><span>h</span></li>
+            <li class="key black" data-key="u"><span>u</span></li>
+            <li class="key white" data-key="j"><span>j</span></li>
+            <li class="key white" data-key="k"><span>k</span></li>
+            <li class="key black" data-key="o"><span>o</span></li>
+            <li class="key white" data-key="l"><span>l</span></li>
+            <li class="key black" data-key="p"><span>p</span></li>
+            <li class="key white" data-key=";"><span>;</span></li>
+        </ul>
+        <button id="btn" type="button">Click here for Tunes !</button>
+    </div>
+    <div id="displaytune">
+        <h3>1) Birthday Tune</h3>
+        <p> $GGHGKJ <br>
+            $GGHGLK
+        </p><br><br>
+        <p>More Tunes Coming Soon !</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
